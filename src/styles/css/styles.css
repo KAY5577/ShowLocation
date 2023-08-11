@@ -1,0 +1,50 @@
+.mainArea {
+  min-height: 50vh;
+}
+
+.theNav {
+  z-index: 10;
+  background-color: rgba(254, 254, 254, 0.98);
+  min-height: 80px;
+}
+
+.bg-orange {
+  background-color: #f7941d;
+}
+
+.bg-lightgray {
+  background-color: #ddd;
+}
+
+.bg-footergray {
+  background-color: #bbb;
+}
+
+.bg-navy {
+  background-color: #30336b;
+}
+
+.border-navy {
+  border: 10px solid #30336b;
+}
+
+.z-index-bottom {
+  z-index: -10;
+  opacity: 0.35;
+}
+
+.serviceItemCard:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s ease-out;
+}
+
+@media screen and (max-width: 576px) {
+  .z-index-bottom {
+    z-index: -10;
+    opacity: 0;
+  }
+}
+img.imgFaithOfYR:hover {
+  transform: scale(1.25, 1.25);
+  transition: all 0.7s ease-out;
+}/*# sourceMappingURL=styles.css.map */
